@@ -47,7 +47,7 @@ The config file contents are below:
 Here is the sauce of the work here:
 #### Google Lighthouse
 ```
-docker run --rm --name lighthouse -it -v /root/docker-tests/lighthouse:/home/chrome/reports --cap-add=SYS_ADMIN femtopixel/google-lighthouse https://URLOFWEBSITETESTING
+docker run --rm --name lighthouse -it -v /root/docker-tests/lighthouse:/home/chrome/reports --cap-add=SYS_ADMIN femtopixel/google-lighthouse:v6.4.1 https://URLOFWEBSITETESTING
 ```
 #### Sitespeed.io
 ```
